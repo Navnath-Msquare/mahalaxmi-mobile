@@ -9,6 +9,9 @@ import phone1 from './assets/phone1.png';
 import phone2 from './assets/phone2.png';
 import phone3 from './assets/phone3.png';
 import phone4 from './assets/phone4.png';
+import allMobilesImg from './assets/all_mobiles.png';
+import mobileRepairingImg from './assets/mobile_repairing.png';
+import electronicItemsImg from './assets/electronic_items.png';
 
 const InstagramIcon = ({ size = 24, className = "" }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
@@ -141,7 +144,7 @@ function App() {
               
               <div onClick={() => setSelectedCategory('mobiles')} className={`rounded-2xl overflow-hidden shadow-[0_10px_30px_rgba(79,70,229,0.15)] bg-gradient-to-br from-blue-50 to-white flex flex-col group cursor-pointer border hover:-translate-y-2 transition-all duration-300 ${selectedCategory === 'mobiles' ? 'border-primary ring-2 ring-primary/30' : 'border-primary/20'}`}>
                 <div className="h-48 overflow-hidden bg-white">
-                  <img src="/src/assets/all_mobiles.png" alt="All Mobiles" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                  <img src={allMobilesImg} alt="All Mobiles" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div className="p-5 text-center flex-1 flex flex-col justify-center">
                   <h3 className="text-xl font-bold text-gray-900 mb-1">All Mobiles</h3>
@@ -151,7 +154,7 @@ function App() {
 
               <div onClick={() => setSelectedCategory('repair')} className={`rounded-2xl overflow-hidden shadow-[0_10px_30px_rgba(79,70,229,0.15)] bg-gradient-to-br from-indigo-50 to-white flex flex-col group cursor-pointer border hover:-translate-y-2 transition-all duration-300 ${selectedCategory === 'repair' ? 'border-primary ring-2 ring-primary/30' : 'border-primary/20'}`}>
                 <div className="h-48 overflow-hidden bg-white">
-                  <img src="/src/assets/mobile_repairing.png" alt="Mobile Repairing" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                  <img src={mobileRepairingImg} alt="Mobile Repairing" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div className="p-5 text-center flex-1 flex flex-col justify-center">
                   <h3 className="text-xl font-bold text-gray-900 mb-1">Mobile Repairing</h3>
@@ -161,7 +164,7 @@ function App() {
 
               <div onClick={() => setSelectedCategory('electronics')} className={`rounded-2xl overflow-hidden shadow-[0_10px_30px_rgba(79,70,229,0.15)] bg-gradient-to-br from-purple-50 to-white flex flex-col group cursor-pointer border hover:-translate-y-2 transition-all duration-300 ${selectedCategory === 'electronics' ? 'border-primary ring-2 ring-primary/30' : 'border-primary/20'}`}>
                 <div className="h-48 overflow-hidden bg-white">
-                  <img src="/src/assets/electronic_items.png" alt="Electronic Items" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                  <img src={electronicItemsImg} alt="Electronic Items" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div className="p-5 text-center flex-1 flex flex-col justify-center">
                   <h3 className="text-xl font-bold text-gray-900 mb-1">Electronic Items</h3>
