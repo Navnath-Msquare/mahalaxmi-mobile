@@ -47,24 +47,24 @@ brands.forEach((brand, brandIndex) => {
 });
 
 const repairServices = [
-  { id: 'r1', name: 'Screen Replacement', price: '₹1500+', discount: 'FAST', reviews: 120, image: 'https://images.unsplash.com/photo-1597740985671-2a8a3b80502e?auto=format&fit=crop&q=80&w=400', description: 'Expert screen replacement within 2 hours.' },
-  { id: 'r2', name: 'Battery Replacement', price: '₹800+', discount: 'BEST', reviews: 95, image: 'https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&q=80&w=400', description: 'Original battery replacement with warranty.' },
-  { id: 'r3', name: 'Water Damage Repair', price: '₹1200+', discount: 'URGENT', reviews: 45, image: 'https://images.unsplash.com/photo-1588508065123-287b28e01397?auto=format&fit=crop&q=80&w=400', description: 'Professional water damage recovery.' },
-  { id: 'r4', name: 'Software Update', price: '₹300', discount: 'QUICK', reviews: 210, image: 'https://images.unsplash.com/photo-1601784551446-20c9e07cdbf4?auto=format&fit=crop&q=80&w=400', description: 'OS upgrade and formatting.' }
+  { id: 'r1', name: 'Screen Replacement', price: '₹1500+', discount: 'FAST', reviews: 120, image: mobileRepairingImg, description: 'Expert screen replacement within 2 hours.' },
+  { id: 'r2', name: 'Battery Replacement', price: '₹800+', discount: 'BEST', reviews: 95, image: mobileRepairingImg, description: 'Original battery replacement with warranty.' },
+  { id: 'r3', name: 'Water Damage Repair', price: '₹1200+', discount: 'URGENT', reviews: 45, image: mobileRepairingImg, description: 'Professional water damage recovery.' },
+  { id: 'r4', name: 'Software Update', price: '₹300', discount: 'QUICK', reviews: 210, image: mobileRepairingImg, description: 'OS upgrade and formatting.' }
 ];
 
 const electronicsProducts = [
-  { id: 'e1', name: 'Wireless Earbuds', price: '₹1200', discount: 'SALE', reviews: 340, image: 'https://images.unsplash.com/photo-1572569533612-85f23aad5696?auto=format&fit=crop&q=80&w=400', description: 'High bass wireless earbuds.' },
-  { id: 'e2', name: 'Smartwatch Pro', price: '₹2500', discount: 'NEW', reviews: 180, image: 'https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=400', description: 'Fitness tracker with heart rate monitor.' },
-  { id: 'e3', name: '20000mAh Powerbank', price: '₹1500', discount: 'SALE', reviews: 420, image: 'https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?auto=format&fit=crop&q=80&w=400', description: 'Fast charging powerbank.' },
-  { id: 'e4', name: 'Bluetooth Speaker', price: '₹900', discount: 'HOT', reviews: 150, image: 'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&q=80&w=400', description: 'Portable mini bluetooth speaker.' }
+  { id: 'e1', name: 'Wireless Earbuds', price: '₹1200', discount: 'SALE', reviews: 340, image: electronicItemsImg, description: 'High bass wireless earbuds.' },
+  { id: 'e2', name: 'Smartwatch Pro', price: '₹2500', discount: 'NEW', reviews: 180, image: electronicItemsImg, description: 'Fitness tracker with heart rate monitor.' },
+  { id: 'e3', name: '20000mAh Powerbank', price: '₹1500', discount: 'SALE', reviews: 420, image: electronicItemsImg, description: 'Fast charging powerbank.' },
+  { id: 'e4', name: 'Bluetooth Speaker', price: '₹900', discount: 'HOT', reviews: 150, image: electronicItemsImg, description: 'Portable mini bluetooth speaker.' }
 ];
 
 const appliancesProducts = [
-  { id: 'a1', name: 'Ceiling Fan', price: '₹1800', discount: '10% OFF', reviews: 80, image: 'https://images.unsplash.com/photo-1584433144859-1fcdb0fa2a9a?auto=format&fit=crop&q=80&w=400', description: 'High speed decorative fan.' },
-  { id: 'a2', name: 'Washing Machine', price: '₹15000', discount: 'SALE', reviews: 45, image: 'https://images.unsplash.com/photo-1626806819282-2c1dc01a5e0c?auto=format&fit=crop&q=80&w=400', description: 'Fully automatic washing machine.' },
-  { id: 'a3', name: 'Air Cooler', price: '₹6500', discount: 'SUMMER', reviews: 120, image: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&q=80&w=400', description: 'Desert cooler for large rooms.' },
-  { id: 'a4', name: 'Refrigerator', price: '₹18000', discount: 'SALE', reviews: 65, image: 'https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?auto=format&fit=crop&q=80&w=400', description: 'Double door modern fridge.' }
+  { id: 'a1', name: 'Ceiling Fan', price: '₹1800', discount: '10% OFF', reviews: 80, image: electronicItemsImg, description: 'High speed decorative fan.' },
+  { id: 'a2', name: 'Washing Machine', price: '₹15000', discount: 'SALE', reviews: 45, image: electronicItemsImg, description: 'Fully automatic washing machine.' },
+  { id: 'a3', name: 'Air Cooler', price: '₹6500', discount: 'SUMMER', reviews: 120, image: electronicItemsImg, description: 'Desert cooler for large rooms.' },
+  { id: 'a4', name: 'Refrigerator', price: '₹18000', discount: 'SALE', reviews: 65, image: electronicItemsImg, description: 'Double door modern fridge.' }
 ];
 
 function App() {
